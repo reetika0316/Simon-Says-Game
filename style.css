@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+body{
+    background-color: rgb(77, 115, 218);
+    text-align: center;
+}
+.container{
+    background-color: white;
+    height: 30em;
+    width: 30em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 80%;
+    left: 50%;
+}
+.simon{
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 480px;
+    width: 480px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+}
+.color-part{
+    height: 12em;
+    width: 12em;
+    position: absolute;
+}
+.red{
+    background-color: red;
+    top: 2rem;
+    left: 2rem;
+    border-radius: 13em 0 0 0;
+}
+.green{
+    background-color: green;
+    top: 2rem;
+    right: 2rem;
+    border-radius: 0 13em 0 0;
+}
+.blue{
+    background-color: blue;
+    bottom: 2rem;
+    right: 2rem;
+    border-radius: 0 0 13em 0;
+}
+.yellow{
+    background-color: yellow;
+    bottom: 2rem;
+    left: 2rem;
+    border-radius: 0 0 0 13em;
+}
+#count{
+    border-radius: 50%;
+    background-color: white;
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border: 30px solid rgba(0, 0, 0, 0.904);
+    z-index: 1;
+    text-align: center;
+    align-content: center;
+    font-size: 3rem;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: rgb(117, 0, 128);
+}
+.highScore{
+    position: relative;
+    transform: translate(20px,16.3em);
+     
+} 
